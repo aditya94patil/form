@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+         <title>Home</title>
+     </head>
+     <body>
+         <header>
+            <h1>Welcome to my Website</h1>
+            made with HTML5 and lots of  
+            <i class="fa fa-heart fa-md" aria-hidden="true"></i><br><br><hr>
+         </header>
+         <main>
+             <h2>Please provide your information !</h2>
+             <p>Your information will be not be saved as we have not included any server side language or technology. So dont worry about your private information....</p> <br>
+             <form action="">
+                 <fieldset>
+                     <legend><b>Personal Information</b></legend>
+                         <label for="uname">First Name : </label>
+                         <input type="text" name="uname" id="uname" maxlength="10" autofocus required> <br><br>
+                         <label for="lname">Last Name : </label>
+                         <input type="text" name="lname" id="lname" maxlength="10" required> <br><br>
+                         <label for="gender">Gender : </label>
+                         <input type="radio" name="gender" id="male" required>
+                         <i class="fa fa-male" aria-hidden="true"></i>
+                         <label for="male">Male </label>
+                         <input type="radio" name="gender" id="female">
+                         <i class="fa fa-female" aria-hidden="true"></i>
+                         <label for="female">Female </label> <br><br>
+                         <label for="age">Age : </label>
+                         <input type="number" name="age" id="age" min="5" max="50"> <br><br>
+                         <label for="birthday">Birth-date : </label>
+                         <input type="datetime-local" name="birthday" id="birthday"><br><br>
+                         <label for="married">Marital Status : </label>
+                         <input type="radio" name="married" id="yes">
+                         <label for="married">Married</label>
+                         <input type="radio" name="married" id="no">
+                         <label for="married">Not yet</label><br><br>
+                         <label for="photo">Your photo(optional) : </label>
+                         <input type="file" name="photo" id="photo" max="1">
+                 </fieldset>
+            </form>
+            <br><br>
+            <form action="">
+                 <fieldset>
+                     <legend> <i class="fa fa-address-card fa-md" aria-hidden="true"></i>
+                        <b>Address Information</b></legend>
+                         <h4>Current Location : </h4>
+                             <label for="city" required>Your city : </label>
+                             <input type="text" name="city" id="city" maxlength="15"> <br><br>
+                             <label for="state">State : </label>
+                             <input type="text" name="state" id="state" maxlength="15">&nbsp;
+                             <label for="district">District : </label>
+                             <input type="text" name="district" id="district" maxlength="15" size="13"> <br><br>
+                             <label for="pin">Pin Code : </label>
+                             <input type="number" name="pin" id="pin" max="5">&nbsp;
+                             <label for="village">Village : </label>
+                             <input type="text" name="village" id="village" size="13">
+                         <h4>Permanent Location : </h4>
+                             <label for="city">Your city : </label>
+                             <input type="text" name="city" id="city" maxlength="15" placeholder="optional"> <br><br>
+                             <label for="state">State : </label>
+                             <input type="text" name="state" id="state" maxlength="15" placeholder="optional"> &nbsp;
+                             <label for="district">District : </label>
+                             <input type="text" name="district" id="district" maxlength="15" placeholder="optional" size="13"> <br><br>
+                             <label for="pin">Pin Code : </label>
+                             <input type="number" name="pin" id="pin" max="5" placeholder="optional">
+                 </fieldset>
+             </form>
+             <br><br>
+             <form action="">
+                 <fieldset>
+                     <legend><b>Education Information</b></legend><br>
+                     <label for="grade"><b>10th Standard Information</b></label> <br><br>
+                     <input type="radio" name="grade" id="pass">
+                     <label for="pass">Pass</label>
+                     <input type="radio" name="grade" id="fail">
+                     <label for="fail">Fail</label> &nbsp;&nbsp;&nbsp;
+                     <label for="grades">Grades : </label>
+                     <select name="grade" id="grade" required>
+                         <option value="">81% and above</option>
+                         <option value="">71%-80%</option>
+                         <option value="">61%-70%</option>
+                         <option value="">51%-60%</option>
+                         <option value="">40%-50%</option>
+                         <option value="">less than 40%</option>
+                     </select> <br><br>
+                     <label for="grade1"><b>12th Standard Information</b></label> <br><br>
+                     <input type="radio" name="grade1" id="pass">
+                     <label for="pass">Pass</label>
+                     <input type="radio" name="grade1" id="fail">
+                     <label for="fail">Fail</label> &nbsp;&nbsp;&nbsp;
+                     <label for="grades">Grades : </label>
+                     <select name="grade1" id="grade1" required>
+                         <option value="">81% and above</option>
+                         <option value="">71%-80%</option>
+                         <option value="">61%-70%</option>
+                         <option value="">51%-60%</option>
+                         <option value="">40%-50%</option>
+                         <option value="">less than 40%</option>
+                     </select> <br><br>
+                     <label for="grade"><b>Current course information</b></label> <br><br>
+                     <label for="course">Currently enrolled in : </label>
+                     <select name="grade1" id="grade1">
+                         <option value="">Engineering</option>
+                         <option value="">Medical</option>
+                         <option value="">12th</option>
+                         <option value="">10th</option>
+                         <option value="">Below 10th</option>
+                         <option value="">other</option>
+                     </select> 
+                     <label for="other">If other : </label>
+                     <input type="text" name="other" id="other" placeholder="optional" size="14" maxlength="15">
+                 </fieldset>
+             </form>
+            <br><br>
+            <form action="">
+                <fieldset>
+                    <legend><b>Contact Information</b></legend> <br>
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <label for="email">Email : </label>
+                    <input type="email" name="" id="" required> <br><br>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <label for="contact1">Contact number(+91) : </label>
+                    <input type="number" name="contact1" id="contact1" max="10" required> <br><br>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <label for="contact2">Secondary contact number(+91) :</label>
+                    <input type="number" name="contact2" id="contact2" max="10" placeholder="optional">
+                </fieldset>
+            </form>
+            <br><br>
+            <input type="submit" value="click to submit">
+         </main>
+         <footer>
+             <h3>About me</h3>
+                 <a href="">Linkedin</a>&nbsp;
+                 <a href="">Instagram</a>&nbsp;
+                 <a href="">Facebook</a> <br><br>
+                 <details>
+                    <summary>about</summary>
+                    <h4>My name is Aditya Patil</h4>
+                    <p>I am currently living in mharashtra. I have deep desire to make something new invention from technology</p>
+                 </details>
+                 <p>Special thanks to University Of Michigan to provide amazing HTML5 course !!!</p>
+                 <details>
+                     <summary></summary>
+                     <a href="https://drive.google.com/file/d/1YfXU9zr62wITUczh1Xphj6R-1n0_aDk9/view?usp=sharing" target="_blank">See my certificate</a>
+                 </details>
+         </footer>
+     </body>
+</html>
